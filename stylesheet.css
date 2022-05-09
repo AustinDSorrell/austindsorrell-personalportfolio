@@ -1,6 +1,74 @@
-@font-face { font-family: cyberdyne; src: url('cyberdyne.otf'); } 
-@font-face { font-family: cyberdyne; font-weight: bold; src: url('cyberdyne.otf');}
+@font-face { 
+    font-family: cyberdyne; 
+    src: url(fonts/cyberdyne.ttf); 
+} 
 
-h1 {
-    font-family: cyberdyne;
+@font-face { 
+    font-family: alonespace; 
+    src: url(fonts/AloneInSpaceReguler-qZ2xr.ttf); 
+} 
+
+@font-face { 
+    font-family: sourcefont; 
+    src: url(fonts/SourceCodePro-4alW.ttf); 
 }
+
+@font-face { 
+    font-family: spacemono; 
+    src: url(fonts/SpaceMono-Bold.ttf); 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[class^="navBar"] {
+    text-align: center;
+    font-size: 20px;
+}
+
+h2,h3,h4,h5 {
+    font-family: spacemono;
+}
+
+p,a {
+    font-family: sourcefont;
+    text-decoration: none;
+}
+
+.footerList {
+    list-style-type: none;
+}
+
+.boldSecondary {
+    font-family: spacemono;
+}
+
+.postSecondary {
+    font-family: sourcefont;
+}
+
+.fiveSteps {
+    margin-left: 5%;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    height: 5vh;
+    list-style-type: none;
+    margin-right: 20%;
+    margin-left: 20%;
+    overflow: hidden;
+    border: solid 1px darkgrey;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
