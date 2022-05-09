@@ -1,0 +1,6 @@
+@font-face { font-family: cyberdyne; src: url('cyberdyne.otf'); } 
+@font-face { font-family: cyberdyne; font-weight: bold; src: url('cyberdyne.otf');}
+
+h1 {
+    font-family: cyberdyne;
+}
