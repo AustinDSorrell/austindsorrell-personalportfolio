@@ -8,21 +8,30 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <header>
-        <section class="heroImageSection">
-            <video src="cybervideo.mp4" muted loop autoplay></video>
-            <div class="overlay"></div>
-            <nav class="navBar">
-                <ul class ="navList">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="resume.html">RESUME</a></li>
-                    <li><a href="portfolio.html">PORTFOLIO</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </nav> 
-        </section>
-    </header>
+    <section class="hero">
+        <header>
+            <div id="mySidemenu" class="sidemenu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="resume.html">RESUME</a>
+                <a href="portfolio.html">PORTFOLIO</a>
+                <a href="contact.html">CONTACT</a>
+              </div>
+            <div class = "span">
+                <span style="font-size:30px;cursor:pointer" onclick="openMenu()">&#9776;</span>
+            </div>
+        </header>
+    
+        <video src="cybervideo.mp4" muted loop autoplay type="video/mp4"></video>
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h1>Austin Sorrell's</h1>
+            <h2>About Page</h2>
+        </div>
+        
+    </section>
     <section class="subHeader">
         <article class="awardCarousel">
 
