@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Austin Dean Sorrell's Personal Portfolio Contact Page</title>
+    <title>Austin Dean Sorrell's Personal Portfolio About Page</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <header>
-        <section class="heroImageSection">
+    <section class="hero">
+        <header>
             <nav class="navBar">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="resume.html">RESUME</a></li>
-                    <li><a href="portfolio.html">PORTFOLIO</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
+                    <a href="index.html">HOME</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="resume.html">RESUME</a>
+                <div class="navDrop">
+                    <button class = navBtn href="portfolio.html">PORTFOLIO</button>
+                    <div class = "navContent">
+                        <a href="portfolio.html">PORTFOLIO 1</a>
+                        <a href="portfolio.html">PORTFOLIO 2</a>
+                        <a href="portfolio.html">PORTFOLIO 3</a>
+                    </div>
+                </div>
+                    <a href="contact.html">CONTACT</a>
             </nav> 
-        </section>
-    </header>
+        </header>
+        <video src="globe.mp4" muted loop autoplay type="video/mp4"></video>
+        <div class="aboutOverlay"></div>
+        <div class="text">
+            <h1>Austin Sorrell's</h1>
+            <h2>Contact Information</h2>
+        </div>
+    </section>
     <footer>
         <h4>CONTACT ME</h4>
         <p>Business Email: <a href="contact.html">austindsorrell04@gmail.com</a></p>
