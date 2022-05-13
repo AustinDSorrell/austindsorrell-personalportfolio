@@ -29,8 +29,8 @@ main {
 }
 
 main a {
-    color: white;
     font-family: spacemono;
+    color: white;
 }
 .hero {
     position: relative;
