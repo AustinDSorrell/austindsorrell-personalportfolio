@@ -24,6 +24,14 @@
   box-sizing: border-box;
 }
 
+main {
+    background: #111;
+}
+
+main a {
+    color: white;
+    font-family: spacemono;
+}
 .hero {
     position: relative;
     right: 0;
