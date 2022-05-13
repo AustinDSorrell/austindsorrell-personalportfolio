@@ -179,10 +179,6 @@ p {
     color: white;
 }
 
-.footerList {
-    list-style-type: none;
-}
-
 .boldSecondary {
     font-family: spacemono;
 }
@@ -203,9 +199,6 @@ a {
     position: absolute;
     z-index: 10;
 }
-
-
-
 
 .title {
     display: flex;
@@ -287,16 +280,19 @@ a {
 
 .contentList {
     padding: 20px;
+    
 }
 
 .contentList p {
-    padding: 20px
+    padding: 20px;
+
 }
 
 .contentList a {
     border: solid 1px darkgrey;
     font-size: 20px;
     padding: 3px;
+    font-family: cyberdyne;
 }
 
 .contentList a:hover {
@@ -307,8 +303,16 @@ a {
 
 footer {
     background-color: black;
+    border: solid 1px white;
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
 }
 
+footer li {
+    list-style-type: none;
+    text-decoration: none;
+}
 
 footer a {
     font-family: sourcefont;
