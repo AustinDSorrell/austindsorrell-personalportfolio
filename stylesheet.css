@@ -204,6 +204,9 @@ a {
     z-index: 10;
 }
 
+
+
+
 .title {
     display: flex;
     flex-wrap: wrap;
@@ -228,6 +231,7 @@ a {
     justify-content: center;
     align-content: center;
     position: relative;
+    padding-top: 40px;
 }
 
 .singleText {
@@ -261,15 +265,16 @@ a {
     width: 40vw;
 }
 
-
 .half p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
     width: 40vw;
-    font-size: 23px;
-    margin-right: 150px;
+    font-size: 24px;
+    margin-right: 155px;
+    border: solid 1px darkgrey;
+    padding: 10px
 }
 
 .half img {
@@ -277,17 +282,37 @@ a {
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    width: 40vw;
-    margin-left: 150px;
+    margin-left: 155px;
 }
 
+.contentList {
+    padding: 20px;
+}
 
+.contentList p {
+    padding: 20px
+}
 
+.contentList a {
+    border: solid 1px darkgrey;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.contentList a:hover {
+    border: solid 1px darkgrey;
+    padding: 3px;
+    background-color: rgb(82, 7, 195);
+}
+
+footer {
+    background-color: black;
+}
 
 
 footer a {
     font-family: sourcefont;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 @media (max-width: 991px) {
