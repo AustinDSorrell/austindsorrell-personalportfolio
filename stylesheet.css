@@ -185,6 +185,7 @@ p {
 
 .postSecondary {
     font-family: sourcefont;
+    color: white;
 }
 
 .fiveSteps {
@@ -218,6 +219,24 @@ a {
     font-family: cyberdyne;
 }
 
+.title2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    width: 60vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border: 4px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-size: 2rem;
+    text-justify: distribute;
+    font-family: cyberdyne;
+}
+
 .single {
     display: flex;
     flex-wrap: wrap;
@@ -246,57 +265,136 @@ a {
     justify-content: space-between;
     padding-left: 5vw;
     padding-right: 5vw;
-    position: relative;
     margin: 50px;
-}
-
-.half {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    width: 40vw;
-}
-
-.half p {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    width: 40vw;
-    font-size: 24px;
-    margin-right: 155px;
-    border: solid 1px darkgrey;
-    padding: 10px
-}
-
-.half img {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    margin-left: 155px;
-}
-
-.contentList {
-    padding: 20px;
     
 }
 
+.double img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.half p {
+    border: solid 1px rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 18px;
+}
+
+.half2 p {
+    border: solid 1px rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 18px;
+}
+
+.half2 li {
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.half3 p {
+    border: solid 1px rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 18px;
+}
+
+.half3 li {
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.carousel-containter {
+    width: 45%;
+    margin: auto;
+    border: 5px solid black;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+#backBtn {
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    font-family: cyberdyne;
+    padding: 3px;
+}
+
+#nextBtn {
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    font-family: cyberdyne;
+    padding: 3px;
+}
+
+#nextBtn:hover{
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    font-family: cyberdyne;
+    background-color: rgb(82, 7, 195);
+    color: white;
+    padding: 3px;
+}
+
+#backBtn:hover{
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    font-family: cyberdyne;
+    background-color: rgb(82, 7, 195);
+    color: white;
+    padding: 3px;
+}
+.contentList , p {
+    padding: 20px;
+}
+
+.contentList li {
+    list-style-type: none;
+    text-decoration: none;
+}
 .contentList p {
     padding: 20px;
-
 }
 
 .contentList a {
-    border: solid 1px darkgrey;
-    font-size: 20px;
+    border: solid 1px white;
+    font-size: 18px;
     padding: 3px;
     font-family: cyberdyne;
 }
 
 .contentList a:hover {
-    border: solid 1px darkgrey;
+    border: solid 1px white;
     padding: 3px;
     background-color: rgb(82, 7, 195);
 }
@@ -309,14 +407,34 @@ footer {
     text-decoration: none;
 }
 
+footer p  {
+    padding: 20px;
+}
+
 footer li {
     list-style-type: none;
     text-decoration: none;
+    padding: 10px;
 }
 
 footer a {
     font-family: sourcefont;
     color: white;
+}
+
+.siteMap {
+    padding: 10px;
+}
+
+.siteMap li a {
+    border: solid 1px white;
+    padding: 2px;
+}
+
+.siteMap li a:hover {
+    border: solid 1px white;
+    padding: 2px;
+    background-color: rgb(82, 7, 195);
 }
 
 @media (max-width: 991px) {
