@@ -322,6 +322,21 @@ a {
     list-style-type: none;
 }
 
+.half4 p {
+    border: solid 1px rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 245px;
+    margin-left: 245px;
+}
+
+.half4 li {
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
 
 .carousel-containter {
     width: 45%;
