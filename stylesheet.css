@@ -499,3 +499,28 @@ footer a {
     font-size: 2em;
   }
 }
+
+.form {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: 0 auto;
+}
+
+form { 
+    padding: 30px 0;
+    display: flex;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 33%);
+    border: solid 1px darkgrey;
+    background-color: rgb(43, 42, 42);
+    border-radius: 1rem 0 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 25vh;
+    max-width: 1280px;
+    align-content: space-around;
+    margin: 0 auto;
+}
