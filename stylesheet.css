@@ -69,6 +69,20 @@ main a {
     opacity: 0.8;
 }
 
+.resumeBtn {
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    font-family: cyberdyne;
+    background-color: black;
+    padding: 3px;
+    border: solid 2px rgb(255, 255, 255);
+}
+
 .aboutOverlay {
     position: absolute;
     top: 0;
