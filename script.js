@@ -2,7 +2,7 @@ const carouselSlide = document.querySelector('.carousel-slide');
 const carouselImg = document.querySelectorAll('.carousel-slide img');
 
 //Selectors
-const backBtn = document.querySelector('#backBtn');
+const prevBtn = document.querySelector('#prevBtn');
 const nextBtn = document.querySelector('#nextBtn');
 
 //Img Counter
@@ -22,7 +22,7 @@ nextBtn.addEventListener('click',()=>{
     console.log(counter)
 });
 
-backBtn.addEventListener('click',()=>{
+prevBtn.addEventListener('click',()=>{
     if (counter <=0) return;
     carouselSlide.style.transition = "transform 0.6s ease-in-out";
     counter--;
@@ -31,12 +31,12 @@ backBtn.addEventListener('click',()=>{
 });
 
 carouselSlide.addEventListener('transitionend',()=> {
-    if (carouselImg[counter].id ==='lastClone'){
+    if (carouselImg[counter].id ==='finalClone'){
         carouselSlide.style.transition = "none";
         counter = carouselImg.length -2;
         carouselSlide.style.transform = 'translateX(' + (-size * counter) +'px)';
     }
-    if (carouselImg[counter].id ==='firstClone'){
+    if (carouselImg[counter].id ==='beginClone'){
         carouselSlide.style.transition = "none";
         counter = carouselImg.length - counter;
         carouselSlide.style.transform = 'translateX(' + (-size * counter) +'px)';

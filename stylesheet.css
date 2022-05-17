@@ -182,7 +182,7 @@ h1 {
     font-family: cyberdyne;
 }
 
-h2,h3,h4,h5 {
+h2,h3,h4,h5,h6 {
     font-family: spacemono;
     color: white;
 }
@@ -370,7 +370,7 @@ a {
     height: 500px;
 }
 
-#backBtn {
+#prevBtn {
     margin: auto;
     overflow: hidden;
     margin-top: 20px;
@@ -408,7 +408,7 @@ a {
     padding: 3px;
 }
 
-#backBtn:hover{
+#prevBtn:hover{
     margin: auto;
     overflow: hidden;
     margin-top: 20px;
